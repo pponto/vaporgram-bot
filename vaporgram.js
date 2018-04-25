@@ -41,7 +41,7 @@ bot.on('message', (msg) => {
 
   const coilsInfo = "/coils";
   if (msg.text.toString().indexOf(coilsInfo) === 0) {
-    bot.sendMessage(chatId, "Nesses links abaixo você aprenderá todo básico para iniciar suas builds: \n<a href='http://www.vaporaqui.com.br/faca-sua-propria-resistencia-vale-a-pena/'>- Sobre Coils - O Começo</a> \n<a href='http://www.e-cigclube.com.br/tipos-de-coils-resistencia-para-vape/'>- Diferentes tipos de Coils - Qual Escolher?</a> \n<a href='https://www.ecigguide.com/common-type-wires-vaping'>- Fios, quais existem e em que modo utilizar? (Inglês)</a> \n<a href='https://www.youtube.com/watch?v=uhcq39euhOU'>- Guia para iniciantes - Ferramentas - Diâmetros - Fios e Resistências (Inglês)</a> \n", opts);
+    bot.sendMessage(chatId, "Nesses links abaixo você aprenderá todo básico para iniciar suas builds: \n<a href='https://vapingdaily.com/what-is-vaping/vape-coils-wires/'>- The Ultimate Guide to Vape Wires and Vape Coils (Inglês)</a> \n<a href='https://www.youtube.com/playlist?list=PLX2U7lCBn4fMOfVv3kvgscvyHYiWnCpYl'>- ::Fiozinhos do Marquês::</a> \n<a href='http://www.vaporaqui.com.br/faca-sua-propria-resistencia-vale-a-pena/'>- Sobre Coils - O Começo</a> \n<a href='http://www.e-cigclube.com.br/tipos-de-coils-resistencia-para-vape/'>- Diferentes tipos de Coils - Qual Escolher?</a> \n<a href='https://www.ecigguide.com/common-type-wires-vaping'>- Fios, quais existem e em que modo utilizar? (Inglês)</a> \n<a href='https://www.youtube.com/watch?v=uhcq39euhOU'>- Guia para iniciantes - Ferramentas - Diâmetros - Fios e Resistências (Inglês)</a> \n", opts);
   }
 
   const bateriaInfo = "/baterias";
